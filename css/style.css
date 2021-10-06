@@ -1,0 +1,497 @@
+body {
+    font-family: 'Ubuntu', sans-serif;
+    margin: 0px;
+    background-repeat: no-repeat;
+}
+
+@media screen 
+    and (min-width: 1200px)
+    and (max-width: 2560px) {
+        .mainImage {
+            height: 100vh;
+            background-image: url(/simpleProject/images/pexels-nataliya-vaitkevich-5735582.jpg);
+            background-size: cover;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+        
+        .mainText {
+            font-size: 96px;
+            font-weight: 500;
+            margin: 0px;
+            color: white;
+        }
+}
+
+@media screen 
+    and (min-width: 960px)
+    and (max-width: 1200px) {
+        .mainImage {
+            height: 100vh;
+            background-image: url(/simpleProject/images/pexels-nataliya-vaitkevich-5735582.jpg);
+            background-size: cover;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+        
+        .mainText {
+            font-size: 72px;
+            font-weight: 500;
+            margin: 0px;
+            color: white;
+        }
+    }
+
+@media screen 
+    and (min-width: 640px)
+    and (max-width: 960px) {
+        .mainImage {
+            height: 100vh;
+            background-image: url(/simpleProject/images/pexels-ivan-samkov-5799685.jpg);
+            background-size: cover;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+        
+        .mainText {
+            font-size: 72px;
+            font-weight: 500;
+            margin: 0px;
+            color: white;
+        }
+    }
+
+    @media screen 
+    and (min-width: 480px)
+    and (max-width: 640px) {
+        .mainImage {
+            height: 100vh;
+            background-image: url(/simpleProject/images/pexels-ivan-samkov-5799685.jpg);
+            background-size: cover;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+
+        }
+        
+        .mainText {
+            font-size: 64px;
+            font-weight: 500;
+            margin: 0px;
+            color: white;
+        }
+    }
+
+    @media screen 
+    and (min-width: 320px)
+    and (max-width: 480px) {
+        .mainImage {
+            height: 100vh;
+            background-image: url(/simpleProject/images/pexels-ivan-samkov-5799685.jpg);
+            background-size: cover;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+        
+        .mainText {
+            font-size: 48px;
+            font-weight: 500;
+            margin: 0px;
+            color: white;
+        }
+    }
+
+    @media screen 
+    and (min-width: 200px)
+    and (max-width: 320px) {
+            .mainImage {
+                height: 100vh;
+                background-image: url(/simpleProject/images/pexels-ivan-samkov-5799685.jpg);
+                background-size: cover;
+                display: flex;
+                justify-content: center;
+                align-items: center;
+            }
+            
+            .mainText {
+                font-size: 36px;
+                font-weight: 500;
+                margin: 0px;
+                color: white;
+            }
+    }
+
+    @media screen 
+        and (min-width: 1200px)
+        and (max-width: 2560px) {
+        .containerDescription1 {
+            max-width: 1160px;
+            height: 660px;
+            margin: 0 auto;
+            display: flex;
+            justify-content: flex-start;
+            align-items: center;
+        }
+    
+        .imgDescription1 {
+            height: 373px;
+            width: 560px;
+            background-image: url(/simpleProject/images/pexels-mark-stebnicki-2255965\ 1.png);
+        }
+
+        .headerDescription1 {
+            font-weight: 500;
+            font-size: 48px;
+            padding-left: 27%;
+        }
+    }
+
+    @media screen 
+        and (min-width: 960px)
+        and (max-width: 1200px) {
+            .containerDescription1 {
+                max-width: 1160px;
+                height: 660px;
+                margin: 0 auto;
+                display: flex;
+                justify-content: flex-start;
+                align-items: center;
+            }
+        
+            .imgDescription1 {
+                height: 373px;
+                width: 560px;
+                background-image: url(/simpleProject/images/pexels-mark-stebnicki-2255965\ 1.png);
+                margin-left: 2%;
+            }
+    
+            .headerDescription1 {
+                font-weight: 500;
+                font-size: 48px;
+                padding-left: 10%;
+            }
+    }
+
+    @media screen 
+        and (min-width: 640px)
+        and (max-width: 960px) {
+            .containerDescription1 {
+                max-width: 960px;
+                height: 700px;
+                margin: 0 auto;
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                flex-direction: column;
+            }
+        
+            .imgDescription1 {
+                height: 413px;
+                width: 612px;
+                background-image: url(/simpleProject/images/pexels-mark-stebnicki-2255965\ 1.jpg);
+            }
+    
+            .headerDescription1 {
+                font-weight: 500;
+                font-size: 48px;
+                margin-top: 60px;
+            }
+        }
+
+    @media screen 
+        and (min-width: 480px)
+        and (max-width: 640px) {
+            .containerDescription1 {
+                max-width: 640px;
+                height: 490px;
+                margin: 0 auto;
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                flex-flow: column wrap;
+            }
+        
+            .imgDescription1 {
+                height: 413px;
+                width: 612px;
+                background-image: url(/simpleProject/images/pexels-mark-stebnicki-2255965\ 1.jpg);
+            }
+    
+            .headerDescription1 {
+                font-weight: 500;
+                font-size: 48px;
+                margin-top: 64px;
+            }
+        }
+
+        @media screen 
+            and (min-width: 320px)
+            and (max-width: 480px) {
+                .containerDescription1 {
+                    max-width: 480px;
+                    height: 565px;
+                    margin: 0 auto;
+                    display: flex;
+                    justify-content: center;
+                    align-items: center;
+                    flex-direction: column;
+                }
+            
+                .imgDescription1 {
+                    height: 390px;
+                    width: 300px;
+                    background-image: url(/simpleProject/images/Rectangle\ 5.png);
+                    margin-top: 60px;
+                }
+        
+                .headerDescription1 {
+                    font-weight: 500;
+                    font-size: 48px;
+                    margin-top: 30px;
+                }
+        }
+
+        @media screen 
+            and (min-width: 1200px)
+            and (max-width: 2560px){
+
+            .containerDescription2 {
+                max-width: 1160px;
+                height: 660px;
+                margin: 0 auto;
+                display: flex;
+                justify-content: flex-start;
+                align-items: center;
+            }
+        
+            .imgDescription2 {
+                height: 373px;
+                width: 560px;
+                background-image: url(/simpleProject/images/pexels-mark-stebnicki-2255965\ 1.png);
+            }
+    
+            .headerDescription2 {
+                font-weight: 500;
+                font-size: 48px;
+                padding-right: 27%;
+            }
+    }
+
+    @media screen 
+            and (min-width: 960px)
+            and (max-width: 1200px) {
+                .containerDescription2 {
+                    max-width: 1160px;
+                    height: 660px;
+                    margin: 0 auto;
+                    display: flex;
+                    justify-content: flex-start;
+                    align-items: center;
+                }
+            
+                .imgDescription2 {
+                    height: 373px;
+                    width: 560px;
+                    background-image: url(/simpleProject/images/pexels-mark-stebnicki-2255965\ 1.png);
+                    margin-left: 2%;
+                }
+        
+                .headerDescription2 {
+                    font-weight: 500;
+                    font-size: 48px;
+                    padding-right: 10%;
+                    padding-left: 2%;
+                }
+            }
+    @media screen 
+            and (min-width: 640px)
+            and (max-width: 960px) {
+                .containerDescription2 {
+                    max-width: 960px;
+                    height: 700px;
+                    margin: 0 auto;
+                    display: flex;
+                    justify-content: center;
+                    align-items: center;
+                    flex-direction: column;
+                }
+            
+                .imgDescription2 {
+                    height: 413px;
+                    width: 612px;
+                    background-image: url(/simpleProject/images/pexels-mark-stebnicki-2255965\ 1.jpg);
+                }
+        
+                .headerDescription2 {
+                    font-weight: 500;
+                    font-size: 48px;
+                    margin-bottom: 60px;
+                }
+            }
+
+    @media screen 
+            and (min-width: 480px)
+            and (max-width: 640px) {
+                .containerDescription2 {
+                    max-width: 640px;
+                    height: 490px;
+                    margin: 0 auto;
+                    display: flex;
+                    justify-content: center;
+                    align-items: center;
+                    flex-flow: column wrap;
+                }
+            
+                .imgDescription2 {
+                    height: 413px;
+                    width: 612px;
+                    background-image: url(/simpleProject/images/Rectangle\ 5.png);
+                }
+        
+                .headerDescription2 {
+                    font-weight: 500;
+                    font-size: 48px;
+                    margin-top: 64px;
+                }
+            }   
+    @media screen 
+            and (min-width: 320px)
+            and (max-width: 480px) {
+                .containerDescription2 {
+                    max-width: 480px;
+                    height: 565px;
+                    margin: 0 auto;
+                    display: flex;
+                    justify-content: center;
+                    align-items: center;
+                    flex-direction: column;
+                }
+            
+                .imgDescription2 {
+                    height: 390px;
+                    width: 300px;
+                    background-image: url(/simpleProject/images/Rectangle\ 5.png);
+                    margin-top: 60px;
+                }
+        
+                .headerDescription2 {
+                    font-weight: 500;
+                    font-size: 48px;
+                    margin-top: 30px;
+                }
+            }
+
+            footer {
+                width: 100%;
+                height: 70px;
+                background-color: black;
+            }
+
+            @media screen 
+                and (min-width: 1200px)
+                and (max-width: 2560px) {
+                    .containerSubscription {
+                        height: 400px;
+                        background-image: url(/simpleProject/images/pexels-tim-mossholder-1738520.jpg);
+                        background-size: cover;
+                        display: flex;
+                        justify-content: center;
+                        align-items: center;
+                    }
+                    
+                    .subscriptionText {
+                        font-size: 48px;
+                        font-weight: 500;
+                        margin: 0px;
+                        color: white;
+                        cursor: pointer;
+                    }
+
+            }
+
+            @media screen 
+                and (min-width: 960px)
+                and (max-width: 1200px) {
+                    .containerSubscription {
+                        height: 400px;
+                        background-image: url(/simpleProject/images/pexels-tim-mossholder-1738520.jpg);
+                        background-size: cover;
+                        display: flex;
+                        justify-content: center;
+                        align-items: center;
+                    }
+                    
+                    .subscriptionText {
+                        font-size: 48px;
+                        font-weight: 500;
+                        margin: 0px;
+                        color: white;
+                    }
+
+            }
+            @media screen 
+                and (min-width: 640px)
+                and (max-width: 960px) {
+                    .containerSubscription {
+                        height: 400px;
+                        background-image: url(/simpleProject/images/pexels-tim-mossholder-1738520.jpg);
+                        background-size: cover;
+                        display: flex;
+                        justify-content: center;
+                        align-items: center;
+                    }
+                    
+                    .subscriptionText {
+                        font-size: 36px;
+                        font-weight: 500;
+                        margin: 0px;
+                        color: white;
+                    }
+
+            }
+
+            @media screen 
+                and (min-width: 480px)
+                and (max-width: 640px) {
+                    .containerSubscription {
+                        height: 400px;
+                        background-image: url(/simpleProject/images/pexels-tim-mossholder-1738520.jpg);
+                        background-size: cover;
+                        display: flex;
+                        justify-content: center;
+                        align-items: center;
+                    }
+                    
+                    .subscriptionText {
+                        font-size: 36px;
+                        font-weight: 500;
+                        margin: 0px;
+                        color: white;
+                    }
+
+            }
+
+            @media screen 
+                and (min-width: 320px)
+                and (max-width: 480px) {
+                    .containerSubscription {
+                        height: 250px;
+                        background-image: url(/simpleProject/images/pexels-tim-mossholder-1738520.jpg);
+                        background-size: cover;
+                        display: flex;
+                        justify-content: center;
+                        align-items: center;
+                    }
+                    
+                    .subscriptionText {
+                        font-size: 24px;
+                        font-weight: 500;
+                        margin: 0px;
+                        color: white;
+                    }
+
+            }
